@@ -1,0 +1,88 @@
+.courses {
+    /* border: 1px solid red; */
+    margin: auto;
+    color: white;
+    position: absolute;  
+    top: 100px;  
+    left: 3%;
+    z-index: 1;
+    width: 94%; /*--------------*/
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.searchColleges {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.searchInputDiv {
+    border: 1px solid gray;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    width: 65%;
+    margin: auto;
+}
+
+.searchIcon {
+    font-size: 22px;
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.searchInput {
+    height: 90%;
+    width: 85%;
+    border: none;
+    outline: none;
+}
+
+.searchButton {
+    height: 100%;
+    width: 13%;
+    background-color: #ff7900;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+
+.recentVisitparentDiv {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    width: 65%;
+}
+
+.recentVisitDiv {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.recentVisitDiv>div {
+    border: 1px solid white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+    border-radius: 5px;
+}
+.counsellingButton{
+    height: 100%;
+    color: white;
+    background-color: #ff7700;
+    width: 200px;
+    border: none;
+    font-size: 15px;
+    
+}
